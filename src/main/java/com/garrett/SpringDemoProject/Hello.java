@@ -8,7 +8,7 @@ public class Hello {
 	
 	@GetMapping(path = "/")
 	public String greet() {
-		return "Hello World. Welcome to the Spring Boot Demo by Telusko.";
+		return "Spring Boot Test Demo.";
 	}
 
 }
